@@ -33,3 +33,13 @@
 a {
     text-decoration: none;
 }
+
+.image {
+    width: 250px;
+    height: auto;
+}
+
+.hero-section {
+    display: flex;
+    flex: 1;
+}
