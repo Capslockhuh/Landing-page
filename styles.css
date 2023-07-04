@@ -1,8 +1,10 @@
+/* make the webpade fit the whole available space */
 html, body {
     margin: 0;
     height: 100%;
 }
 
+/* 1st section (header) */
 .header {
     display: flex;
     flex-direction: column;
@@ -44,6 +46,8 @@ html, body {
 a {
     text-decoration: none;
 }
+
+/* 2nd section */
 
 .image {
     display: flex;
@@ -96,6 +100,7 @@ a {
     color: #000000;
 }
 
+/* 3rd section */
 .information {
     display: flex;
     flex-direction: column;
@@ -135,6 +140,7 @@ a {
     transition-duration: 0.2s; /* hover effect duration */
 }
 
+/* hover effect on the graphics */
 .random-graphic:hover {
    border: 10px solid #3882F6;
 }
@@ -144,6 +150,7 @@ a {
     color: #3D4C5F;
 }
 
+/* 4th section */
 .quote {
     display: flex;
     flex-direction: column;
@@ -167,6 +174,7 @@ a {
     align-self: flex-end;
 }
 
+/* 5th section */
 .call {
     background-color: #3882F6;
     border-radius: 10px;
@@ -214,6 +222,7 @@ a {
     opacity: 70%; 
 }
 
+/* 6th section (footer) */
 .footer {
     background-color: #1F2937;
     display: flex;
