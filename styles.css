@@ -78,12 +78,22 @@ a {
 
 .hero-button {
     background-color: #3882F6;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: 0px solid;
     border-radius: 8px;
-    padding: 8px;
+    padding: 8px 20px;
     margin: 10px;
     margin-left: 0px;
     justify-self: center;
     align-self: flex-start;
+    transition-duration: 0.4s; /* hover effect duration */
+}
+
+/* hover effect */
+.hero-button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 .information {
@@ -122,6 +132,11 @@ a {
     border-radius: 8px;
     height: auto;
     width: 5%;
+    transition-duration: 0.2s; /* hover effect duration */
+}
+
+.random-graphic:hover {
+   border: 10px solid #3882F6;
 }
 
 .information-text {
@@ -183,15 +198,20 @@ a {
     display: flex;
     justify-self: center;
     align-self: center;
+    transition-duration: 0.4s; /* hover effect duration */
 }
 
 .button-text {
-    display: flex;
     font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
     color: #FFFFFF;
     text-align: center;
     justify-self: center;
     align-self: center;
+}
+
+/* hover effect */
+.sign-up-button:hover {
+    opacity: 70%; 
 }
 
 .footer {
